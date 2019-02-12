@@ -1,0 +1,7 @@
+{
+    "title": "ຍິນດີຕ້ອນຮັບສູ່ react using react-i18next",
+    "description": {
+      "part1": "ຢາກທົດລອງ, ເຂົ້າໄປແກ້ໄຂຟາຍ <1>src/App.js</1> ບັນທຶກ ແລະ ລີໂຫຼດຄືນໃໝ່.",
+      "part2": "Switch language between english and german using buttons above."
+    }
+  }

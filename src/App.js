@@ -7,7 +7,12 @@ import './App.css';
 class LegacyWelcomeClass extends Component {
   render() {
     const { t } = this.props;
-    return <h2>{t('title')}</h2>;
+    return (
+      <div>
+        <h2>{t('title')}</h2>
+        <h3>{t('description.part1')}</h3>
+      </div>
+    )
   }
 }
 const Welcome = withTranslation()(LegacyWelcomeClass);
@@ -37,6 +42,7 @@ function Page() {
           <Welcome />
           <button onClick={() => changeLanguage('de')}>de</button>
           <button onClick={() => changeLanguage('en')}>en</button>
+          <button onClick={() => changeLanguage('lo')}>lo</button>
         </div>
         <div className="App-intro">
           <MyComponent />
